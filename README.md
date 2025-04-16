@@ -1,20 +1,23 @@
-<<<<<<< HEAD
-# interview_app
+🎉 Event Registration App
+A Flutter application that allows users to register for events by submitting their personal information. The app includes form validation, API integration, and a user-friendly interface.​
 
-A new Flutter project.
+📋 Features
+User-friendly registration form with fields for:
 
-## Getting Started
+Full Name
 
-This project is a starting point for a Flutter application.
+Email Address
 
-A few resources to get you started if this is your first Flutter project:
+Gender Selection (Male, Female, Other)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Event Type Selection (Workshop, Seminar, Webinar)​
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# EventRegistrationApp
->>>>>>> 081ffea830cc5c09eed3ae3c47d20ca0342c0b11
+Form validation to ensure all required fields are filled correctly.
+
+API integration to submit form data to a backend server.
+
+Loading overlay to indicate ongoing operations.
+
+Success dialog displaying submitted information upon successful registration.
+
+Error handling with descriptive messages for various failure scenarios.​
